@@ -11,7 +11,7 @@ def isNonRepeated(astr):
         if elem not in alst:
             alst.append(elem)
 
-    if astr == "".join(alst): # Check if there is any repeated characters:
+    if astr == "".join(alst): # if there is any repeated characters:
         return True
     else:
         return False
